@@ -1,6 +1,4 @@
-package com.opensource.model;
-
-import java.util.Date;
+package com.opensource.models;
 
 import javax.persistence.Column;
 import javax.persistence.Entity;
@@ -18,24 +16,20 @@ import lombok.NoArgsConstructor;
 @Entity
 @NoArgsConstructor
 @AllArgsConstructor
-@Table(name="bio")
-public class Bio {
+@Table(name= "comments")
+public class Comment {
 	
 	@Id
 	@GeneratedValue(strategy=GenerationType.IDENTITY)
-	@Column (name="bio_id")
+	@Column (name="comment_id")
 	private int id;
-	
-	private Date birthday;
 	
 	@NotBlank
 	private String text;
-	private String school;
-	private String work;
-	private String interests;
 	
 	
-	public Bio(String text) {
+	public Comment (String text) {
 		this.text = text;
 	}
+	
 }
