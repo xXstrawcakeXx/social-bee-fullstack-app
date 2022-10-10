@@ -1,4 +1,4 @@
-package com.opensource.controller;
+package com.opensource.controllers;
 
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.CrossOrigin;

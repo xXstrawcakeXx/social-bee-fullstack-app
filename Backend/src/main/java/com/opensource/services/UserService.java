@@ -1,10 +1,10 @@
-package com.opensource.service;
+package com.opensource.services;
 
 import java.util.List;
 import java.util.Optional;
 
-import com.opensource.model.User;
-import com.opensource.repository.UserRepository;
+import com.opensource.models.User;
+import com.opensource.repositories.UserRepository;
 
 public class UserService {
 

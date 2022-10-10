@@ -10,8 +10,9 @@ import org.mockito.InjectMocks;
 import org.mockito.Mock;
 import org.mockito.junit.jupiter.MockitoExtension;
 
-import com.opensource.model.User;
-import com.opensource.repository.UserRepository;
+import com.opensource.models.User;
+import com.opensource.repositories.UserRepository;
+import com.opensource.services.UserService;
 
 @ExtendWith(MockitoExtension.class)
 public class UserServiceTest {

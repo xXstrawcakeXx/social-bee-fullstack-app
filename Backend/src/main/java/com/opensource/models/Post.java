@@ -1,4 +1,4 @@
-package com.opensource.model;
+package com.opensource.models;
 
 import java.util.List;
 
