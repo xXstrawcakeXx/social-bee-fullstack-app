@@ -1,0 +1,5 @@
+spring:
+  profiles:
+    active: dev
+logging:
+  file.name: logs/social-bee.log
