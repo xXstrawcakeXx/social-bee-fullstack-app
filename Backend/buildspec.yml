@@ -8,4 +8,4 @@ phases:
 artifacts:
   files:
     - 'Dockerfile'
-    - Backend/target/social-bee-0.0.1-SNAPSHOT.jar
+    - target/social-bee-0.0.1-SNAPSHOT.jar
