@@ -4,7 +4,6 @@ phases:
   build:
     commands:
       - java -version
-      - cd "D:\Work\Code\Java Code\social-bee-fullstack-app\Backend"
       - mvn clean package -Ddb_user=${db_user} -Ddb_url=${db_url} -Ddb_pass=${db_pass}
 artifacts:
   files:
